@@ -1,16 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/b35e538739.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <h1>Heloo
-        
-    </h1>
-    
+
+    <header class="my-12 mx-44 ">
+        <div class="navbar bg-[#F85559] rounded-full ">
+            <div class="flex-1">
+                <a class="btn btn-ghost normal-case text-xl">Home</a>
+                <a class="btn btn-ghost normal-case text-xl">About Us</a>
+                <a class="btn btn-ghost normal-case text-xl">Shop</a>
+                <a class="btn btn-ghost normal-case text-xl">All Fruits</a>
+            </div>
+            <div class="flex  justify-items-center items-center gap-2">
+
+                <div >
+                    <img src="./images/logo.png" alt="" />
+                </div>
+                <div>
+                    <h1 class="text-2xl font-bold">Fruit Brust</h1>
+                </div>
+                <div class="form-control flex">
+                    <input type="text" placeholder="Search here" class="input rounded-full w-24 md:w-auto" />
+                    <button class="btn btn-ghost btn-circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                      </button>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+    <main>
+
+    </main>
+
+    <footer class="footer footer-center p-10 bg-[#121212] text-[#FFF] rounded">
+
+        <div class="flex justify-items-center pt-10 ">
+            <div class="">
+                <img src="./images/logo.png" alt="" />
+            </div>
+            <div class="">
+                <h1 class="text-2xl font-bold">Fruit Brust</h1>
+            </div>
+
+        </div>
+
+        <div class="grid grid-flow-col gap-4">
+            <a class="link link-hover">Home</a>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Shop</a>
+            <a class="link link-hover">All Fruits</a>
+            <a class="link link-hover">Support</a>
+            <a class="link link-hover">My Account</a>
+        </div>
+        <div class="pb-5">
+            <div class="grid grid-flow-col gap-4 text-2xl">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-apple"></i>
+            </div>
+        </div>
+
+    </footer>
+
 </body>
+
 </html>
