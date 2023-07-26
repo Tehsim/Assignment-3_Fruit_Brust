@@ -11,7 +11,7 @@
 </head>
 
 <body>
-
+    <!-- header -->
     <header class="my-12 mx-44 text-[#FFF]">
         <div class="navbar bg-[#F85559] rounded-full ">
             <div class="flex-1">
@@ -21,36 +21,70 @@
                 <a class="btn btn-ghost normal-case text-xl">All Fruits</a>
             </div>
             <div class="flex  justify-items-center items-center gap-2  pr-5">
-               
+
                 <div class="pr-10">
                     <img src="./images/logo.png" alt="" />
                 </div>
                 <div class="pr-12">
                     <h1 class="text-2xl font-bold">Fruit Brust</h1>
                 </div>
-              
+
                 <div class="form-control flex">
-                        <label class="relative block">
-                            <input class="text-[#94a3b8] input rounded-full w-24 md:w-auto" placeholder="Search here" type="text" />              
-                            <span class="absolute inset-y-0 right-0 flex items-center pr-3">
-                                <svg class="h-5 w-5 fill-black" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
-                                    height="30" viewBox="0 0 30 30">
-                                    <path
-                                        d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z">
-                                    </path>
-                                </svg>
-                            </span>
-                        </label>
+                    <label class="relative block">
+                        <input class="text-[#94a3b8] input rounded-full w-24 md:w-auto" placeholder="Search here"
+                            type="text" />
+                        <span class="absolute inset-y-0 right-0 flex items-center pr-3">
+                            <svg class="h-5 w-5 fill-black" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                width="30" height="30" viewBox="0 0 30 30">
+                                <path
+                                    d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z">
+                                </path>
+                            </svg>
+                        </span>
+                    </label>
                 </div>
 
             </div>
         </div>
 
     </header>
+    <!-- main section  -->
     <main>
-
+        <!-- banner section exotic  -->
+        <section>
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="./images/banner1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="./images/banner2.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="./images/banner3.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="./images/banner4.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-
+    <!-- footer -->
     <footer class="footer footer-center p-10 bg-[#121212] text-[#FFF] rounded">
 
         <div class="flex justify-items-center pt-10 ">
